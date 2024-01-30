@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+#navbar {
+    background-color: aqua;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+     
+}  
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction:row ;
+    gap: 10px;
+    padding-left: 40px;
+    color: gray;
+     
+  }
+
+  .logo {
+    height: 50px;
+    left: 40px;
+    width:50px;
+    margin: 10px;
+  }
+
+  #sec_1 {
+    height: 150px;
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #sec_1 #left_content {
+    height: auto;
+    background-color: aquamarine;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:slategrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+  }
+
+  #sec_1 #right_content {
+    height: auto;
+    background-color: aquamarine;
+    flex:1;
+    display:flex;
+    justify-content: center;
+   
+  }
+
+  #sec_1 #right_content img {
+      margin: 9px;
+  }
+
+/* styling third section of landing page*/
+
+#sec_2 {
+
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-around;
+  height: auto;
+  padding-top: 10px;
+   
+}
+
+#sec_2_first_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+}
+#sec_2 #sec_2_first_column ul,#sec_2 #sec_2_middle_column ul,#sec_2 #sec_2_last_column ul {
+  list-style: none;
+  padding-top: 10px;
+ 
+}
+
+#sec_2 #sec_2_first_column ul li,#sec_2 #sec_2_middle_column ul li,#sec_2 #sec_2_last_column ul li {
+  border: 3px solid #f2f2f2;
+  padding: 20px;
+  width:250px;
+  font-weight: bold;
+}
+
+.rounded_top_corner {
+  border-radius: 5px 5px 0px 0px;
+}
+                
+.rounded_bottom_corner {
+  border-radius: 0px 0px 5px 5px;
+}
+/*adding hover properties to columns */
+#sec_2_first_column:hover{
+  background-color: blueviolet;
+}
+ 
+#sec_2_middle_column:hover{
+  background-color: blueviolet;
+}
+
+#sec_2_last_column:hover{
+  background-color: blueviolet;
+}
+
+
+#advice {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+}
+
+
+
+
+#footer {
+  position:fixed;
+  bottom:0px;
+  height: 30px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  flex-wrap: wrap;
+  
+  
+}
+
+ body {
+  overflow-x:  hidden;
+ }
